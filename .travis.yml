@@ -1,1 +1,2 @@
 language: C
+script: wget https://github.com/Itseez/opencv/archive/2.4.13.zip

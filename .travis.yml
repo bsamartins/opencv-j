@@ -1,2 +1,2 @@
 language: C
-script: script.sh
+script: ./script.sh

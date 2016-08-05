@@ -1,0 +1,17 @@
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+
+version = '2.4.13'
+group = 'com.github.bsamartins'
+
+artifacts {
+
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            artifact 'opencv-2.4.13/build/lib/opencv-2413.jar'            
+        }
+    }
+}

@@ -1,7 +1,4 @@
-wget https://github.com/Itseez/opencv/archive/2.4.13.zip && \ 
-unzip -q 2.4.13.zip && \ 
-cd opencv-2.4.13 && \ 
-mkdir build && \ 
-cd build && \ 
+mkdir opencv-2.4.13/build && \ 
+cd opencv-2.4.13/build && \ 
 cmake .. && \ 
 make -j8

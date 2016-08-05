@@ -1,2 +1,2 @@
 language: C
-script: wget https://github.com/Itseez/opencv/archive/2.4.13.zip
+script: wget https://github.com/Itseez/opencv/archive/2.4.13.zip &&  unzip 2.4.13.zip && cd 2.4.13 && mkdir build

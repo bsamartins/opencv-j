@@ -1,11 +1,26 @@
+plugins {
+    id "com.jfrog.bintray" version "1.7"
+}
+
 apply plugin: 'maven'
 apply plugin: 'maven-publish'
+
 
 version = '2.4.13'
 group = 'com.github.bsamartins'
 
 artifacts {
 
+}
+
+bintray {
+    user = System.getenv('BINTRAY_USER')
+    key = System.getenv('BINTRAY_KEY')
+    pkg {
+        repo = 'maven'
+        name = "${project.name}"
+        publications = ['maven']
+    }
 }
 
 publishing {

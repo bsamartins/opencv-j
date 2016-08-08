@@ -1,4 +1,4 @@
 language: C
-install: ./install.sh
+#install: ./install.sh
 script: ./script.sh
-deploy: ./deploy.sh
+#deploy: ./deploy.sh
